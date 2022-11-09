@@ -17,6 +17,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <influxdb-client-java.version>6.5.0</influxdb-client-java.version>
+        <influxdb-java-version>2.21</influxdb-java-version>
         <!-- common -->
         <commons-lang3.version>3.3.2</commons-lang3.version>
 
@@ -59,6 +60,11 @@
             <groupId>com.influxdb</groupId>
             <artifactId>influxdb-client-java</artifactId>
             <version>${influxdb-client-java.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.influxdb</groupId>
+            <artifactId>influxdb-java</artifactId>
+            <version>${influxdb-java-version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
